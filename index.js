@@ -1,4 +1,4 @@
- const apiKey = "f3000ce7c48d0f2015930e71e6dce6a9";
+ const apiKey = "f3000ce7c48d0f2015930e71e6dce6a9";//I dont like the idea that your APIKEY is this exposed. Create a .env.local file to store your environment variables
       const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
       const searchBox = document.querySelector(".search-bar input"); 
       const searchBtn = document.querySelector(".search-bar button"); 
